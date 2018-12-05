@@ -1,0 +1,59 @@
+#container {
+  margin: auto;
+  width: 60%;
+  padding: 1em;
+}
+
+#colors {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+#canvas {
+  /* margin: auto;
+  width: 100%; */
+  border: 1px solid black;
+  margin: 10 0 10 0;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#colors button, #clear, #download {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+#colors button:hover, #clear:hover, #download:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#black {
+  background: black;
+}
+
+#pink{
+    background:pink;
+}
+
+#red {
+  background: red;
+}
+
+#green{
+    background:green;
+}
+
+#blue{
+    background:blue;
+}
+
+#orange{
+    background:orange;
+}

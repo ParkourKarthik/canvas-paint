@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Canvas Paint</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="colors">
+        <button
+          id="black"
+          onclick="changeColor('black')"
+          ontouchstart="changeColor('black')"
+        ></button>
+        <button
+          id="pink"
+          onclick="changeColor('pink')"
+          ontouchstart="changeColor('pink')"
+        ></button>
+        <button
+          id="red"
+          onclick="changeColor('red')"
+          ontouchstart="changeColor('red')"
+        ></button>
+        <button
+          id="green"
+          onclick="changeColor('green')"
+          ontouchstart="changeColor('green')"
+        ></button>
+        <button
+          id="blue"
+          onclick="changeColor('blue')"
+          ontouchstart="changeColor('blue')"
+        ></button>
+        <button
+          id="orange"
+          onclick="changeColor('orange')"
+          ontouchstart="changeColor('orange')"
+        ></button>
+      </div>
+      <canvas id="canvas" width="300" height="300"></canvas>
+      <div>
+        <button id="clear" onclick="clearCanvas()">Clear</button>
+        <button id="download" onclick="saveCanvas()">Save</button>
+        <a id="hdn-download" style="display: none" download="canvas.png">Save</a>
+
+      </div>
+    </div>
+  </body>
+</html>

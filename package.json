@@ -1,0 +1,15 @@
+{
+  "name": "paintcanvas",
+  "version": "1.0.0",
+  "description": "simple painting",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-hybrid": "cordova-helper"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cordova-helper": "^0.1.2"
+  }
+}
